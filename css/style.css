@@ -151,6 +151,7 @@ section > .container {
     flex-basis: 100%;
     background-color: aqua;
     padding: 20px;
+    text-align: center;
 }
 
 .sect-title {
@@ -166,17 +167,7 @@ section > .container {
     font-size: 1em;
 }
 
-.center {
-    text-align: center;
-}
 
-#big-img {
-    height: 80%;
-    background-image: url(../img/item4-big.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 /*footer*/
 
 footer {
