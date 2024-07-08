@@ -30,8 +30,15 @@
 
 /*generics*/
 
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header {
-    background-color: lightblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*header*/
@@ -39,6 +46,7 @@ header {
 .navbar {
     height: 80px;
     align-items: center;
+    color: white;
 }
 
 .navbar > * {
@@ -50,23 +58,72 @@ header {
     text-align: center;
 }
 
+.nav-link > span {
+    margin: 0 20px;
+    font-weight: bolder;
+}
+
 .nav-login {
     text-align: right;
+    font-weight: bolder;
+    color: black;
+}
+
+.nav-login > span {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
 }
 
 /*jumbothrone*/
 
 .jumbo {
     height: 500px;
-    background-color: darkblue;
+
     padding: 60px;
     display: flex;
     justify-content: center;
 }
 
 .jumbo .content {
-    width: 50%;
-    background-color: pink;
+    width: 50%; 
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.content p {
+    font-size: 1.3em;
+    margin-bottom: 60px;
+}
+
+.content a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.fa-arrow-down-long {
+    margin-right: 10px;
+}
+
+.jumbo-button {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: #23272A;
+    font-weight: bolder;
+}
+
+.jumbo-button.reverse {
+    background-color: #23272A;
+    color: white;
+    border-color: #23272A;
 }
 
 /*main*/
