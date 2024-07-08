@@ -28,6 +28,15 @@
     background-color: #F6F6F6;
 }
 
+.white-b {
+    background-color: white;
+    color: #23272A;
+}
+
+.blue-b {
+    background-color: #8EA1E1;
+}
+
 /*generics*/
 
 body {
@@ -80,7 +89,6 @@ header {
 
 .jumbo {
     height: 500px;
-
     padding: 60px;
     display: flex;
     justify-content: center;
@@ -113,10 +121,8 @@ header {
 
 .jumbo-button {
     padding: 20px;
-    background-color: white;
     border: 1px solid white;
     border-radius: 40px;
-    color: #23272A;
     font-weight: bolder;
 }
 
@@ -149,7 +155,6 @@ section > .container {
 
 .full-col {
     flex-basis: 100%;
-    background-color: aqua;
     padding: 20px;
     text-align: center;
 }
@@ -167,6 +172,20 @@ section > .container {
     font-size: 1em;
 }
 
+.full-col  h3 {
+    margin-bottom: 30px;
+}
+
+.full-col  a {
+    color: white;
+    text-decoration: none;
+}
+
+.star-bg {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 /*footer*/
 
@@ -206,4 +225,9 @@ footer {
 .footer-bottom {
     color: white;
     justify-content: space-between;
+}
+
+.ft-title {
+    color: #8ea1e1;
+    font-weight: 800;
 }
