@@ -129,22 +129,20 @@ header {
 /*main*/
 
 section {
-    height: 600px;
+    min-height: 600px;
     padding: 60px 0;
 }
 
 section > .container {
-    height: 100%;
+    min-height: 100%;
 }
 
 .lg-col {
-    background-color: dodgerblue;
     flex-basis: 60%;
     padding: 20px;
 }
 
 .sm-col {
-    background-color: pink;
     flex-basis: 40%;
     padding: 20px;
 }
@@ -168,6 +166,17 @@ section > .container {
     font-size: 1em;
 }
 
+.center {
+    text-align: center;
+}
+
+#big-img {
+    height: 80%;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 /*footer*/
 
 footer {
