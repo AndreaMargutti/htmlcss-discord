@@ -140,16 +140,32 @@ section > .container {
 .lg-col {
     background-color: dodgerblue;
     flex-basis: 60%;
+    padding: 20px;
 }
 
 .sm-col {
     background-color: pink;
     flex-basis: 40%;
+    padding: 20px;
 }
 
 .full-col {
     flex-basis: 100%;
     background-color: aqua;
+    padding: 20px;
+}
+
+.sect-title {
+    color: #23272A;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.sect-par {
+    color: #23272A;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 /*footer*/
